@@ -21,7 +21,7 @@ export default function SignupPage() {
     <div className="flex min-h-screen items-center justify-center bg-muted/40 p-4">
     <Card className="mx-auto w-full max-w-md shadow-2xl">
       <CardHeader className="text-center space-y-4">
-        {logo && <Image src={logo.imageUrl} alt={logo.description} width={200} height={50} data-ai-hint={logo.imageHint} className="mx-auto" />}
+        {logo && <Image src={logo.imageUrl} alt={logo.description} width={150} height={150} data-ai-hint={logo.imageHint} className="mx-auto rounded-full" />}
         <CardTitle className="text-3xl font-headline">Create an Account</CardTitle>
         <CardDescription>
           Enter your information to create a new account.
