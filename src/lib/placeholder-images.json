@@ -1,3 +1,70 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "user-avatar-1",
+      "description": "User avatar 1",
+      "imageUrl": "https://picsum.photos/seed/avatar1/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "user-avatar-2",
+      "description": "User avatar 2",
+      "imageUrl": "https://picsum.photos/seed/avatar2/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "user-avatar-3",
+      "description": "User avatar 3",
+      "imageUrl": "https://picsum.photos/seed/avatar3/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "user-avatar-4",
+      "description": "User avatar 4",
+      "imageUrl": "https://picsum.photos/seed/avatar4/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "user-avatar-5",
+      "description": "User avatar 5",
+      "imageUrl": "https://picsum.photos/seed/avatar5/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "user-avatar-6",
+      "description": "User avatar 6",
+      "imageUrl": "https://picsum.photos/seed/avatar6/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "user-avatar-7",
+      "description": "User avatar 7",
+      "imageUrl": "https://picsum.photos/seed/avatar7/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "user-avatar-8",
+      "description": "User avatar 8",
+      "imageUrl": "https://picsum.photos/seed/avatar8/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "user-avatar-9",
+      "description": "User avatar 9",
+      "imageUrl": "https://picsum.photos/seed/avatar9/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "user-avatar-10",
+      "description": "User avatar 10",
+      "imageUrl": "https://picsum.photos/seed/avatar10/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "davangere-university-logo",
+      "description": "Davangere University Logo",
+      "imageUrl": "https://picsum.photos/seed/dulogo/200/50",
+      "imageHint": "university logo"
+    }
+  ]
 }
