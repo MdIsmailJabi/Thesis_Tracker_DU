@@ -1,6 +1,6 @@
 import type { User, UserRole, Thesis, ProgressReport, ActivityLog, ThesisStatus } from './types';
 
-const roles: UserRole[] = ['scholar', 'guide', 'co_guide', 'hod', 'registrar', 'vc', 'brs', 'research_admin'];
+const roles: UserRole[] = ['scholar', 'guide', 'registrar', 'vc', 'brs'];
 const departments = ['Computer Science', 'Mechanical Engineering', 'Biotechnology', 'Commerce', 'Arts'];
 const thesisStatuses: ThesisStatus[] = ['Not Started', 'Submitted', 'Under Review', 'Approved by Guide', 'Approved by HOD', 'Revision Requested', 'Approved', 'Rejected'];
 

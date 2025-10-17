@@ -82,9 +82,6 @@ export default function LoginPage() {
                   <SelectContent>
                       <SelectItem value="scholar">Scholar</SelectItem>
                       <SelectItem value="guide">Guide</SelectItem>
-                      <SelectItem value="co_guide">Co-Guide</SelectItem>
-                      <SelectItem value="hod">HOD</SelectItem>
-                      <SelectItem value="research_admin">Research Admin</SelectItem>
                       <SelectItem value="registrar">Registrar</SelectItem>
                       <SelectItem value="vc">VC</SelectItem>
                   </SelectContent>

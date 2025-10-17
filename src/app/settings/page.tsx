@@ -9,11 +9,9 @@ import { Checkbox } from "@/components/ui/checkbox";
 
 const approvalStages = [
     { id: 1, name: "Guide Approval", role: "guide", order: 1, isFinal: false },
-    { id: 2, name: "Co-Guide Approval", role: "co_guide", order: 2, isFinal: false },
-    { id: 3, name: "HOD Review", role: "hod", order: 3, isFinal: false },
-    { id: 4, name: "BRS Committee", role: "brs", order: 4, isFinal: false },
-    { id: 5, name: "Registrar Finalization", role: "registrar", order: 5, isFinal: false },
-    { id: 6, name: "VC Approval", role: "vc", order: 6, isFinal: true },
+    { id: 2, name: "BRS Committee", role: "brs", order: 2, isFinal: false },
+    { id: 3, name: "Registrar Finalization", role: "registrar", order: 3, isFinal: false },
+    { id: 4, name: "VC Approval", role: "vc", order: 4, isFinal: true },
 ];
 
 export default function SettingsPage() {

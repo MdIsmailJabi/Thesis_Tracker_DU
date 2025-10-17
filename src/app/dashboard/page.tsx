@@ -15,10 +15,9 @@ export default function Dashboard() {
       case 'scholar':
         return <StudentDashboard />;
       case 'guide':
-      case 'co_guide':
-      case 'hod':
         return <GuideDashboard />;
-      case 'research_admin':
+      case 'registrar':
+      case 'vc':
         return <AdminDashboard />;
       default:
         return (
