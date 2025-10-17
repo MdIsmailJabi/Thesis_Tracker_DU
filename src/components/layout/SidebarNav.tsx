@@ -20,10 +20,10 @@ import { cn } from "@/lib/utils"
 import type { UserRole } from "@/lib/types"
 
 const navItems = [
-  { href: "/dashboard", icon: Home, label: "Dashboard", roles: ['student', 'guide', 'co_guide', 'hod', 'registrar', 'vc', 'brs', 'research_admin'] },
-  { href: "/submit-thesis", icon: BookOpenCheck, label: "Submit Thesis", roles: ['student'] },
+  { href: "/dashboard", icon: Home, label: "Dashboard", roles: ['scholar', 'guide', 'co_guide', 'hod', 'registrar', 'vc', 'brs', 'research_admin'] },
+  { href: "/submit-thesis", icon: BookOpenCheck, label: "Submit Thesis", roles: ['scholar'] },
   { href: "/theses", icon: Users, label: "Thesis List", roles: ['guide', 'hod', 'registrar', 'vc', 'brs', 'research_admin'] },
-  { href: "/progress-reports", icon: FileText, label: "Progress Reports", roles: ['student', 'guide'] },
+  { href: "/progress-reports", icon: FileText, label: "Progress Reports", roles: ['scholar', 'guide'] },
 ];
 
 const adminNavItems = [

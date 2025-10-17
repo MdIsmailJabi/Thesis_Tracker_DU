@@ -20,10 +20,10 @@ import { UserNav } from "./UserNav"
 import type { UserRole } from "@/lib/types"
 
 const navItems = [
-  { href: "/dashboard", icon: Home, label: "Dashboard", roles: ['student', 'guide', 'research_admin', 'hod', 'registrar', 'vc', 'brs', 'co_guide'] },
-  { href: "/submit-thesis", icon: BookOpenCheck, label: "Submit Thesis", roles: ['student'] },
+  { href: "/dashboard", icon: Home, label: "Dashboard", roles: ['scholar', 'guide', 'research_admin', 'hod', 'registrar', 'vc', 'brs', 'co_guide'] },
+  { href: "/submit-thesis", icon: BookOpenCheck, label: "Submit Thesis", roles: ['scholar'] },
   { href: "/theses", icon: Users, label: "Thesis List", roles: ['guide', 'hod', 'registrar', 'vc', 'brs', 'research_admin'] },
-  { href: "/progress-reports", icon: FileText, label: "Progress Reports", roles: ['student', 'guide'] },
+  { href: "/progress-reports", icon: FileText, label: "Progress Reports", roles: ['scholar', 'guide'] },
   { href: "/settings", icon: Settings, label: "Settings", roles: ['research_admin'] },
   { href: "/logs", icon: GitGraph, label: "Logs", roles: ['research_admin'] },
 ];

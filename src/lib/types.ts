@@ -1,4 +1,4 @@
-export type UserRole = 'student' | 'guide' | 'co_guide' | 'hod' | 'registrar' | 'vc' | 'brs' | 'research_admin';
+export type UserRole = 'scholar' | 'guide' | 'co_guide' | 'hod' | 'registrar' | 'vc' | 'brs' | 'research_admin';
 
 export interface User {
   uid: string;

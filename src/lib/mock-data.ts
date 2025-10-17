@@ -1,6 +1,6 @@
 import type { User, UserRole, Thesis, ProgressReport, ActivityLog, ThesisStatus } from './types';
 
-const roles: UserRole[] = ['student', 'guide', 'co_guide', 'hod', 'registrar', 'vc', 'brs', 'research_admin'];
+const roles: UserRole[] = ['scholar', 'guide', 'co_guide', 'hod', 'registrar', 'vc', 'brs', 'research_admin'];
 const departments = ['Computer Science', 'Mechanical Engineering', 'Biotechnology', 'Commerce', 'Arts'];
 const thesisStatuses: ThesisStatus[] = ['Not Started', 'Submitted', 'Under Review', 'Approved by Guide', 'Approved by HOD', 'Revision Requested', 'Approved', 'Rejected'];
 
@@ -19,7 +19,7 @@ export const users: User[] = Array.from({ length: 10 }, (_, i) => ({
   createdAt: generateRandomDate(new Date(2022, 0, 1), new Date()),
 }));
 
-export const students = users.filter(u => u.role === 'student');
+export const students = users.filter(u => u.role === 'scholar');
 export const guides = users.filter(u => u.role === 'guide');
 
 export const theses: Thesis[] = Array.from({ length: 5 }, (_, i) => ({

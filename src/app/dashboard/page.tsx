@@ -12,7 +12,7 @@ export default function Dashboard() {
 
   const renderDashboard = () => {
     switch (user?.role) {
-      case 'student':
+      case 'scholar':
         return <StudentDashboard />;
       case 'guide':
       case 'co_guide':

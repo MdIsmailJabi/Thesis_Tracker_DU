@@ -75,15 +75,18 @@ export default function LoginPage() {
             
             <div className="grid gap-2">
               <Label htmlFor="role-select">Select Role (for demo)</Label>
-              <Select name="role" defaultValue="student">
+              <Select name="role" defaultValue="scholar">
                   <SelectTrigger id="role-select">
                       <SelectValue placeholder="Select a role to login as" />
                   </SelectTrigger>
                   <SelectContent>
-                      <SelectItem value="student">Student</SelectItem>
+                      <SelectItem value="scholar">Scholar</SelectItem>
                       <SelectItem value="guide">Guide</SelectItem>
+                      <SelectItem value="co_guide">Co-Guide</SelectItem>
                       <SelectItem value="hod">HOD</SelectItem>
                       <SelectItem value="research_admin">Research Admin</SelectItem>
+                      <SelectItem value="registrar">Registrar</SelectItem>
+                      <SelectItem value="vc">VC</SelectItem>
                   </SelectContent>
               </Select>
             </div>
